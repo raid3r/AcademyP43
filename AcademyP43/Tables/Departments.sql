@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Departments]
+(
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+    Financing MONEY NOT NULL DEFAULT 0 CHECK (Financing >= 0),
+    Name NVARCHAR(100) NOT NULL CHECK (LEN(Name) > 0) UNIQUE,
+    FacultyId INT NOT NULL FOREIGN KEY REFERENCES Faculties(Id)
+)
