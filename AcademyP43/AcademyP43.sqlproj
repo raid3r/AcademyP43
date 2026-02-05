@@ -63,6 +63,7 @@
     <None Include="DeleteExamples.sql" />
     <None Include="SelectExamples.sql" />
     <None Include="MultitablesSelectExamples.sql" />
+    <None Include="AggtregationExamples.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Groups.sql" />
