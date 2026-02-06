@@ -19,6 +19,10 @@ INSERT INTO
   (N'Chemistry', 600000, 1),
   (N'Biology', 700000, 1),
   (N'Computer Science', 1200000, 2);
+
+  INSERT INTO dbo.Departments (Name, Financing, FacultyId)
+  VALUES
+  (N'Психологія', 985000, 3);
   
   
   -- Додавлення груп

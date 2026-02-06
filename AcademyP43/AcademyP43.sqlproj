@@ -64,6 +64,9 @@
     <None Include="SelectExamples.sql" />
     <None Include="MultitablesSelectExamples.sql" />
     <None Include="AggtregationExamples.sql" />
+    <None Include="ExistsAnySomeAllExamples.sql" />
+    <None Include="Unions.sql" />
+    <None Include="JoinExamples.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Groups.sql" />
