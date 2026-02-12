@@ -55,6 +55,9 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Functions" />
+    <Folder Include="Procedures" />
+    <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DDL-example-scripts.sql" />
@@ -67,6 +70,7 @@
     <None Include="ExistsAnySomeAllExamples.sql" />
     <None Include="Unions.sql" />
     <None Include="JoinExamples.sql" />
+    <None Include="FunctionsExamples.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Groups.sql" />
@@ -74,6 +78,7 @@
     <Build Include="Tables\Faculties.sql" />
     <Build Include="Tables\Departments.sql" />
     <Build Include="Tables\TeacherGroups.sql" />
+    <Build Include="Functions\BirthdayText.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="PostDeployment.sql" />
